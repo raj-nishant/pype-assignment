@@ -1,0 +1,91 @@
+/* Login.css */
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.login-heading {
+  margin-bottom: 20px;
+}
+
+.login-label {
+  font-size: 14px;
+  color: #666;
+}
+
+.login-input {
+  width: calc(100% - 20px);
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.google-button {
+  height: auto;
+  width: 80%;
+  max-width: 300px; /* Set maximum width to prevent the button from expanding too much */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+.google-icon {
+  width: 40px;
+}
+
+.google-button:hover {
+  background-color: #f5f5f5;
+}

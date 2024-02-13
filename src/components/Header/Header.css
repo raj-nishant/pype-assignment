@@ -1,0 +1,30 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__welcome {
+  font-size: 14px;
+  margin-right: 10px;
+}

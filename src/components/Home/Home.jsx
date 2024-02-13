@@ -1,12 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { RiCelsiusFill, RiFahrenheitFill } from "react-icons/ri";
 import { TbMapSearch, TbMoon, TbSearch, TbSun } from "react-icons/tb";
-import "../App.css";
+import "./Home.css";
 
-import DetailsCard from "./DetailsCard";
-import SummaryCard from "./SummaryCard";
-import lost from "../assets/lost.svg";
-import SearchPlace from "../assets/search.svg";
+import DetailsCard from "../DetailsCard";
+import SummaryCard from "../SummaryCard";
+import lost from "../../assets/lost.svg";
+import SearchPlace from "../../assets/search.svg";
 
 const Home = () => {
   // Variable declarations
